@@ -1,0 +1,221 @@
+Downloading: https://nodejs.org/download/release/v10.0.0/SHASUMS256.txt
+----------------------------------------
+  Trying 104.20.22.46...
+TCP_NODELAY set
+Connected to nodejs.org (104.20.22.46) port 443 (#0)
+ALPN, offering http/1.1
+Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+successfully set certificate verify locations:
+  CAfile: /etc/ssl/cert.pem
+  CApath: none
+TLSv1.2 (OUT), TLS handshake, Client hello (1):
+[213 bytes data]
+TLSv1.2 (IN), TLS handshake, Server hello (2):
+[102 bytes data]
+TLSv1.2 (IN), TLS handshake, Certificate (11):
+[4579 bytes data]
+TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+[556 bytes data]
+TLSv1.2 (IN), TLS handshake, Server finished (14):
+[4 bytes data]
+TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+[37 bytes data]
+TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+[1 bytes data]
+TLSv1.2 (OUT), TLS handshake, Finished (20):
+[16 bytes data]
+TLSv1.2 (IN), TLS change cipher, Client hello (1):
+[1 bytes data]
+TLSv1.2 (IN), TLS handshake, Finished (20):
+[16 bytes data]
+SSL connection using TLSv1.2 / ECDHE-RSA-CHACHA20-POLY1305
+ALPN, server accepted to use http/1.1
+Server certificate:
+ subject: OU=Domain Control Validated OU=PositiveSSL Wildcard CN=*.nodejs.org
+ start date: Aug 14 00:00:00 2017 GMT
+ expire date: Nov 20 23:59:59 2019 GMT
+ subjectAltName: host "nodejs.org" matched cert's "nodejs.org"
+ issuer: C=GB ST=Greater Manchester L=Salford O=COMODO CA Limited CN=COMODO RSA Domain Validation Secure Server CA
+ SSL certificate verify ok.
+GET /download/release/v10.0.0/SHASUMS256.txt HTTP/1.1
+Host: nodejs.org
+User-Agent: curl/7.54.0
+Accept: */*
+
+HTTP/1.1 200 OK
+Date: Tue, 15 Jan 2019 14:14:08 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d7fa8dfd6a3fb555395c5e9b4ea4b97781547561647 expires=Wed, 15-Jan-20 14:14:07 GMT path=/ domain=.nodejs.org HttpOnly
+Last-Modified: Tue, 24 Apr 2018 19:26:29 GMT
+ETag: W/"5adf84e5-cf7"
+X-Robots-Tag: noindex
+CF-Cache-Status: EXPIRED
+Expires: Tue, 15 Jan 2019 18:14:08 GMT
+Cache-Control: public, max-age=14400
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4998f26bc9a0a2b4-HKG
+
+[747 bytes data]
+[1369 bytes data]
+[1210 bytes data]
+[5 bytes data]
+Connection #0 to host nodejs.org left intact
+----------------------------------------
+Downloading: https://nodejs.org/download/release/v10.0.0/node-v10.0.0-headers.tar.gz
+----------------------------------------
+  Trying 104.20.23.46...
+TCP_NODELAY set
+Connected to nodejs.org (104.20.23.46) port 443 (#0)
+ALPN, offering http/1.1
+Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+successfully set certificate verify locations:
+  CAfile: /etc/ssl/cert.pem
+  CApath: none
+TLSv1.2 (OUT), TLS handshake, Client hello (1):
+[213 bytes data]
+TLSv1.2 (IN), TLS handshake, Server hello (2):
+[102 bytes data]
+TLSv1.2 (IN), TLS handshake, Certificate (11):
+[4579 bytes data]
+TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+[556 bytes data]
+TLSv1.2 (IN), TLS handshake, Server finished (14):
+[4 bytes data]
+TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+[37 bytes data]
+TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+[1 bytes data]
+TLSv1.2 (OUT), TLS handshake, Finished (20):
+[16 bytes data]
+TLSv1.2 (IN), TLS change cipher, Client hello (1):
+[1 bytes data]
+TLSv1.2 (IN), TLS handshake, Finished (20):
+[16 bytes data]
+SSL connection using TLSv1.2 / ECDHE-RSA-CHACHA20-POLY1305
+ALPN, server accepted to use http/1.1
+Server certificate:
+ subject: OU=Domain Control Validated OU=PositiveSSL Wildcard CN=*.nodejs.org
+ start date: Aug 14 00:00:00 2017 GMT
+ expire date: Nov 20 23:59:59 2019 GMT
+ subjectAltName: host "nodejs.org" matched cert's "nodejs.org"
+ issuer: C=GB ST=Greater Manchester L=Salford O=COMODO CA Limited CN=COMODO RSA Domain Validation Secure Server CA
+ SSL certificate verify ok.
+GET /download/release/v10.0.0/node-v10.0.0-headers.tar.gz HTTP/1.1
+Host: nodejs.org
+User-Agent: curl/7.54.0
+Accept: */*
+
+HTTP/1.1 200 OK
+Date: Tue, 15 Jan 2019 14:14:10 GMT
+Content-Type: application/gzip
+Content-Length: 440623
+Connection: keep-alive
+Set-Cookie: __cfduid=df5d94c7dc6d9221ca0b32dedc181a8441547561649 expires=Wed, 15-Jan-20 14:14:09 GMT path=/ domain=.nodejs.org HttpOnly
+Last-Modified: Tue, 24 Apr 2018 14:49:34 GMT
+ETag: "5adf43fe-6b92f"
+X-Robots-Tag: noindex
+Accept-Ranges: bytes
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4998f276ddcb850e-HKG
+
+[827 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[232 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1325 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[1369 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[2406 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[3165 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[3165 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[3165 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[3165 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[4229 bytes data]
+[3697 bytes data]
+[4229 bytes data]
+[16384 bytes data]
+[12155 bytes data]
+[16384 bytes data]
+[16384 bytes data]
+[16384 bytes data]
+[16384 bytes data]
+[16384 bytes data]
+[16384 bytes data]
+[16384 bytes data]
+[16384 bytes data]
+[16384 bytes data]
+[16384 bytes data]
+[16384 bytes data]
+[14905 bytes data]
+Connection #0 to host nodejs.org left intact
+----------------------------------------
